@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Inicio from  './Home/inicio'
+import Categorias from "./Jogo/Categorias";
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
         <p>
           Jogo de Perguntas e Respostas
         </p>        
+        
       </header>
       <Inicio></Inicio>
+      <Categorias></Categorias>
     </div>
   );
 }
