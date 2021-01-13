@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Inicio from  './Home/inicio'
-import Categorias from "./Jogo/Categorias";
+
 import Perguntas from "./Jogo/Perguntas";
+import Resultado from "./Jogo/Resultado";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       </header>
       <Inicio></Inicio>      
       <Perguntas></Perguntas>
+      <Resultado></Resultado>
+
     </div>
   );
 }
