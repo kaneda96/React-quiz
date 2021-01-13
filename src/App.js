@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Inicio from './Home/inicio'
 
 function App() {
   return (
@@ -9,15 +10,8 @@ function App() {
         <p>
           Jogo de Perguntas e Respostas
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Inicio />
+      </header>      
     </div>
   );
 }
