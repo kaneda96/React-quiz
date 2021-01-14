@@ -14,10 +14,11 @@ class Resultado extends Component {
             <div>
                 <h2>Confira o seu desempenho:</h2>
                 <p>Confira o seu desempenho nesta categoria</p>                
-                
+                <Container>
                 <List verticalAlign='left' divided>
                   <Resposta Resposta={resposta}></Resposta> 
                 </List>                
+                </Container>
             </div>
         )
     }
