@@ -15,10 +15,8 @@ function App() {
         </p>        
         
       </header>
-      <Inicio></Inicio>      
-      <Perguntas></Perguntas>
+      <Inicio></Inicio>           
       <Resultado></Resultado>
-
     </div>
   );
 }
