@@ -8,8 +8,7 @@ const tamanho = {
 }
 
 const Categoria = props => {
-    return (
-        <div>
+    return (        
             <Grid.Column>
                 <Segment circular style={tamanho}>
                     <Header as='h2'>
@@ -19,8 +18,7 @@ const Categoria = props => {
                         </Header.Subheader>
                     </Header>
                 </Segment>
-            </Grid.Column>
-        </div>
+            </Grid.Column>        
     )
 }
 

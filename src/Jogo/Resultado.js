@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { List} from "semantic-ui-react";
+import { List,Container} from "semantic-ui-react";
 import Resposta from './Resposta'
 
 const resposta= {
@@ -15,7 +15,7 @@ class Resultado extends Component {
                 <h2>Confira o seu desempenho:</h2>
                 <p>Confira o seu desempenho nesta categoria</p>                
                 <Container>
-                <List verticalAlign='left' divided>
+                <List horizontal divided>
                   <Resposta Resposta={resposta}></Resposta> 
                 </List>                
                 </Container>
